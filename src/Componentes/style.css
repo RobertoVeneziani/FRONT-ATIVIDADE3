@@ -1,0 +1,128 @@
+/* Container principal */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f5f5f5; /* Cinza claro pastel para o fundo do container */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalhos */
+.header {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subheader {
+  font-size: 20px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Estilo do formulário */
+.form {
+  background-color: #ffffff; /* Branco para o fundo do formulário */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+  font-size: 16px;
+  background-color: #fafafa; /* Cinza muito claro pastel para o fundo dos inputs */
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #a0a0a0;
+  outline: none;
+}
+
+/* Botões */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.gravar {
+  background-color: #a8d5ba; /* Verde pastel */
+}
+
+.btn.gravar:hover {
+  background-color: #90bfa3; /* Verde pastel um pouco mais escuro */
+}
+
+.btn.editar {
+  background-color: #aab5b1; /* Verde pastel */
+}
+
+.btn.editar:hover {
+  background-color: #9aafab;
+}
+
+.btn.excluir {
+  background-color: #f28c8c; /* Vermelho pastel */
+}
+
+.btn.excluir:hover {
+  background-color: #f06c6c;
+}
+
+/* Tabela */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table,
+.table th,
+.table td {
+  border: 1px solid #e0e0e0;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.table th {
+  background-color: #e0f7fa; /* Azul claro pastel */
+  color: #333;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f1f8e9; /* Verde muito claro pastel */
+}
+
+.table tr:nth-child(odd) {
+  background-color: #ffffff; /* Branco */
+}
+
+.table tr:hover {
+  background-color: #fce4ec; /* Rosa claro pastel */
+}
